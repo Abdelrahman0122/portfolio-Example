@@ -16,15 +16,12 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/all.min.css">
-    <link rel="stylesheet" href="style/bootstrap.min.css">
-    <link rel="stylesheet" href="style/bootstrap.min.css.map">
     <title>TITLE</title>
 </head>
 
 <body>
 
-</body>
+
 <nav class="navbar navbar-expand-lg sticky-top ">
     <div class="container">
         <a class="navbar-brand text-white" href="#">Abdelrahman</a>
@@ -78,7 +75,7 @@
     z-index: -1;
     
   ">
-  
+
     <div class="container1">
         <div class="landing ">
             <div class="text text-light">
@@ -95,7 +92,7 @@
     </div>
     <div class="container2">
 
-<img class="img"  src="img/user.png" alt="">
+        <img class="img" src="img/user.png" alt="">
 
     </div>
 </div>
@@ -156,50 +153,51 @@
             <h2>We Make This</h2>
             <p class="text-black-50 text-uppercase">Prepare to be Amazed</p>
         </div>
-        <ul class="list-unstyled d-flex justify-content-center mt-5 mb-5 ">
-            <Li class="active rounded-pill">All</Li>
-            <Li>Design</Li>
-            <Li>Code</Li>
-            <Li>Apps</Li>
+        <ul class=" switcher list-unstyled d-flex justify-content-center mt-5 mb-5 ">
+            <Li class="active rounded-pill" data-cat=".all">All</Li>
+            <Li data-cat=".Design">Design</Li>
+            <Li data-cat=".code">Code</Li>
+            <Li data-cat=".Apps">Apps</Li>
         </ul>
-        <div class="row">
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="box mb-3 bg-white" data-work="Application">
-                    <img src="img/work-01.jpg" class="img-fluid">
+        <div class="gallery row">
+
+            <div class="all Design col-sm-6 col-md-4 col-lg-3">
+                <div class="all Design box mb-3 bg-white" data-work="Application">
+                    <img src="img/work-01.jpg" class=" img-fluid">
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="box mb-3 bg-white" data-work="Web Design">
-                    <img src="img/work-02.jpg" class="img-fluid">
+            <div class="all Apps col-sm-6 col-md-4 col-lg-3">
+                <div class="all Apps box mb-3 bg-white" data-work="Web Design">
+                    <img src="img/work-02.jpg" class=" img-fluid">
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="box mb-3 bg-white" data-work="Design for business">
+            <div class="all Design col-sm-6 col-md-4 col-lg-3">
+                <div class="all Design box mb-3 bg-white" data-work="Design for business">
                     <img src="img/work-03.jpg" class="img-fluid">
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="box mb-3 bg-white" data-work="Desktop Design">
+            <div class="all code col-sm-6 col-md-4 col-lg-3">
+                <div class="all code box mb-3 bg-white" data-work="Desktop Design">
                     <img src="img/work-04.jpg" class="img-fluid">
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="box mb-3 bg-white" data-work="Website Maintennce">
+            <div class="all Apps col-sm-6 col-md-4 col-lg-3">
+                <div class="all Apps box mb-3 bg-white" data-work="Website Maintennce">
                     <img src="img/work-05.jpg" class="img-fluid">
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="box mb-3 bg-white" data-work="Dynamic Website development">
+            <div class="all code col-sm-6 col-md-4 col-lg-3">
+                <div class="all code box mb-3 bg-white" data-work="Dynamic Website development">
                     <img src="img/work-06.jpg" class="img-fluid">
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="box mb-3 bg-white" data-work="Work with us">
+            <div class="all Design col-sm-6 col-md-4 col-lg-3">
+                <div class="all Design box mb-3 bg-white" data-work="Work with us">
                     <img src="img/work-07.jpg" class="img-fluid">
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="box mb-3 bg-white" data-work="UI/UX Design">
+            <div class="all Apps col-sm-6 col-md-4 col-lg-3">
+                <div class="all Apps box mb-3 bg-white" data-work="UI/UX Design">
                     <img src="img/work-08.jpg" class="img-fluid">
                 </div>
             </div>
@@ -241,48 +239,48 @@
         </div>
     </div>
 </div>
-<div class="team text-center pb-5 pt-5">
+<section class="team text-center pb-5 pt-5">
     <div class="container pb-5 pt-5">
         <h2 class="fw-b">Who Am I?</h2>
         <P class="text-black-50 mb-5 "> Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry.
             Lorem Ipsum has been the industry's standard dummy text<br> ever since the 1500s.
         </P>
-        <div class="row">
-            <div class="col-md-6 col-lg-3">
-                <div class="box bg-white">
-                    <img class="img-fluid" src="img/team-1.png" alt="">
-                    <h4 class="p-3 text-light">Abdelrahman Elsayed</h4>
-                    <blockquote class="text-black-50 p-3">"Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry."</blockquote>
+       
+            <div class="row nums pt-5 pb-5">
+                <div class="col-md-3 col-lg-3">
+                    <div class="box ">
+                        <i class="fa-solid fa-certificate"></i>
+                        <div class="num pt-2 pb-2" data-goal="100">0</div>
+                        <p>Awards</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="box bg-white">
-                    <img class="img-fluid" src="img/team-1.png" alt="">
-                    <h4 class="p-3 text-light">Abdelrahman Elsayed</h4>
-                    <blockquote class="text-black-50 p-3">"Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry."</blockquote>
+                <div class="col-md-3 col-lg-3">
+                    <div class="box ">
+                        <i class="fa-solid fa-BELL"></i>
+                        <div class="num pt-2 pb-2" data-goal="87">0</div>
+                        <p>projects</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="box bg-white">
-                    <img class="img-fluid" src="img/team-1.png" alt="">
-                    <h4 class="p-3 text-light">Abdelrahman Elsayed</h4>
-                    <blockquote class="text-black-50 p-3">"Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry."</blockquote>
+                <div class="col-md-3 col-lg-3">
+                    <div class="box ">
+                        <i class="fa-solid fa-user-group"></i>
+                        <div class="num pt-2 pb-2" data-goal="43">0</div>
+                        <p>our team</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="box bg-white">
-                    <img class="img-fluid" src="img/team-1.png" alt="">
-                    <h4 class="p-3 text-light">Abdelrahman Elsayed</h4>
-                    <blockquote class="text-black-50 p-3">"Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry."</blockquote>
+                <div class="col-md-3 col-lg-3">
+                    <div class="box">
+                        <i class="fa-solid fa-pen"></i>
+                        <div class="num pt-2 pb-2" data-goal="200">0</div>
+                        <p>Ideas</p>
+                    </div>
                 </div>
-            </div>
 
-        </div>
+            </div>
+        
     </div>
+</section>
+
 </div>
 <div class="techs pt-5 pb-5 text-center">
     <div class="container">
@@ -437,21 +435,12 @@
                     </ul>
                 </div>
             </div>
+            <span class="up"> <i class="bi bi-arrow-up-circle"></i> Up</span>
+        </body>
             <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-            <script>
-                var typed = new Typed(".auto-type", {
-                    strings: ["EL-badawy", "Graphic Designer.", "Developer.", "UI/UX Designer."],
-                    typeSpeed: 70,
-                    backSpeed: 70,
-                    backDelay: 70,
-                    startDelay: 70,
-
-                    loop: true
-
-                })
-            </script>
             <script src="js/bootstrap.bundle.js.map"></script>
             <script src="js/bootstrap.bundle.min.js"></script>
             <script src="js/all.min.js  "></script>
-
+            <script src="js/script.js  "></script>
+        </body>
 </html>

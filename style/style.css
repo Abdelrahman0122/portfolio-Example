@@ -10,10 +10,8 @@
 
 * {
     font-family: "Roboto", sans-serif;
-}
-html {
     scroll-behavior: smooth;
-  }
+}
 
 .main-btn {
     background-color: #fbc8d5;
@@ -194,7 +192,9 @@ html {
 
 .row {
     margin-top: 60px important;
+    
 }
+
 
 /************Our Work****************/
 .our-work {
@@ -205,6 +205,8 @@ html {
 .our-work ul .active {
     background-color: var(--blue-color);
     color: #9594ff;
+    border-radius: 30px;
+    transition: 1s;
 }
 
 .our-work ul li {
@@ -250,11 +252,15 @@ html {
 
 /******************team*********************/
 .team {
-    background-color: var(--section-color);
+    background-color: #1d3557;
+   
 }
 
 .team h2 {
     color: var(--yellow-color);
+}
+.team p {
+color: #b9b9b9 !important;
 }
 
 .team .box h4 {
@@ -290,6 +296,13 @@ html {
 }
 .t{
     font-size: 3rem;
+}
+
+.nums{
+    background-color: #172b46;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
 }
 /******************contact************/
 .sub{
@@ -338,4 +351,24 @@ html {
   span{
     color: var(--yellow-color
     );
+  }
+
+
+  .up {
+    width: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: -300px;
+    background-color:  var(--yellow-color) !important;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: Arial, Tahoma;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .up.show {
+    right: 10px;
   }
