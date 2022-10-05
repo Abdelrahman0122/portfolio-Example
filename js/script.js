@@ -47,7 +47,7 @@ let span = document.querySelector(".up");
 
 
 window.onscroll = function () {
-    if (this.scrollY >= 2889) {        
+    if (this.scrollY >= 4919.2001953125) {        
     if (!started) {
         nums.forEach((num) => startCount(num));
       }
@@ -55,7 +55,7 @@ window.onscroll = function () {
     }
 
     console.log(this.scrollY);
-    if (this.scrollY >= 1000) {
+    if (this.scrollY >= 800) {
       span.classList.add("show");
     } else {
       span.classList.remove("show");
@@ -68,7 +68,7 @@ window.onscroll = function () {
 function startCount(el) {
 let goal = el.dataset.goal;
 let count = setInterval(() => {
-el.textContent ++;
+el.textContent++;
 if (el.textContent == goal) {
     clearInterval(count);
   }
@@ -83,3 +83,10 @@ span.onclick = function () {
       behavior: "smooth",
     });
   };
+
+  
+
+
+
+
+  
